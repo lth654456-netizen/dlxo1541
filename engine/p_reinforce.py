@@ -115,11 +115,12 @@ def classify(text: str, policy: dict) -> tuple[str, float]:
 def extract_title(text: str, filename: str) -> str:
     """마크다운 제목 또는 첫 줄에서 제목을 추출합니다."""
     for line in text.splitlines():
-        line = line.strip()
+        # BOM(\ufeff) 및 앞뒤 공백 제거
+        line = line.strip().lstrip('\ufeff').strip()
         if line.startswith("# "):
             return line[2:].strip()
         if line and not line.startswith("---"):
-            return line[:80]
+            return line[:80].lstrip('\ufeff').strip()
     return Path(filename).stem
 
 
@@ -227,7 +228,7 @@ def process_raw_file(raw_path: Path) -> bool:
     
     # 9. GitHub 동기화
     action_summary = f'"{display_cat}" 폴더에 "{title}" 문서 추가 (확신도 {confidence:.0%})'
-    ok, commit_hash = sync(action_summary)
+    ok, commit_hash = sync(action_summary, branch="master")
     
     if ok and commit_hash not in ("no-changes", ""):
         # 커밋 해시를 문서에 반영

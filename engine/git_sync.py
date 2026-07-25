@@ -80,7 +80,7 @@ def push(branch: str = "main") -> bool:
     return True
 
 
-def sync(action_summary: str, branch: str = "main") -> tuple[bool, str]:
+def sync(action_summary: str, branch: str = "master") -> tuple[bool, str]:
     """add → commit → push를 한번에 실행합니다."""
     print(f"\n🔄 GitHub 동기화 시작: {action_summary}")
     print("-" * 50)

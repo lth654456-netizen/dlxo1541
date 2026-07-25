@@ -12,7 +12,8 @@ GRAPH_PATH = Path(__file__).parent.parent / "20_Meta" / "Graph.json"
 def load_graph() -> dict:
     """Graph.json을 로드합니다."""
     if GRAPH_PATH.exists():
-        with open(GRAPH_PATH, encoding="utf-8") as f:
+        # utf-8-sig: BOM 있어도 처리 가능
+        with open(GRAPH_PATH, encoding="utf-8-sig") as f:
             return json.load(f)
     return {"version": "1.0.0", "nodes": [], "edges": [], "categories": {}}
 

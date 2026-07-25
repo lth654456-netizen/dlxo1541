@@ -1,5 +1,5 @@
 ---
-id: c6fe2690-a9f7-4827-971a-18cdf6d20608
+id: e3593421-44cd-43eb-8b5e-72a53fbfa1ef
 category: "[[10_Wiki/💡 Topics]]"
 confidence_score: 0.50
 tags: [강화학습, 머신러닝, AI, 개념]
@@ -7,7 +7,7 @@ last_reinforced: 2026-07-25
 github_commit: "pending"
 ---
 
-# [[﻿# 강화학습(RL)의 핵심 원리]]
+# [[강화학습(RL)의 핵심 원리]]
 
 ## 📌 한 줄 통찰 (The Karpathy Summary)
 > ﻿# 강화학습(RL)의 핵심 원리

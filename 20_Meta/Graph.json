@@ -4,8 +4,8 @@
   "total_nodes": 1,
   "nodes": [
     {
-      "id": "854f2a40-ac54-4450-af66-a8fd8e6c6710",
-      "title": "﻿# 강화학습(RL)의 핵심 원리",
+      "id": "31f6c267-d1c2-40ea-aa3e-e29ab43f5f2a",
+      "title": "강화학습(RL)의 핵심 원리",
       "category": "Topics",
       "tags": [
         "강화학습",
@@ -14,7 +14,7 @@
         "개념"
       ],
       "confidence": 0.5,
-      "created_at": "2026-07-25T20:52:09.333236"
+      "created_at": "2026-07-25T20:53:00.880393"
     }
   ],
   "edges": [],
@@ -37,7 +37,7 @@
     }
   },
   "metadata": {
-    "description": "P-Reinforce 지식 그래프 - 모든 문서 간의 연결 관계를 추적합니다.",
+    "description": "P-Reinforce 吏??洹몃옒??- 紐⑤뱺 臾몄꽌 媛꾩쓽 ?곌껐 愿怨꾨? 異붿쟻?⑸땲??",
     "engine": "P-Reinforce v1.0",
     "rl_policy_version": "1.0"
   }

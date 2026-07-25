@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-07-25",
+  "total_nodes": 0,
+  "nodes": [],
+  "edges": [],
+  "categories": {
+    "Projects": { "count": 0, "color": "#FF6B6B" },
+    "Topics": { "count": 0, "color": "#4ECDC4" },
+    "Decisions": { "count": 0, "color": "#FFE66D" },
+    "Skills": { "count": 0, "color": "#A8E6CF" }
+  },
+  "metadata": {
+    "description": "P-Reinforce 지식 그래프 - 모든 문서 간의 연결 관계를 추적합니다.",
+    "engine": "P-Reinforce v1.0",
+    "rl_policy_version": "1.0"
+  }
+}

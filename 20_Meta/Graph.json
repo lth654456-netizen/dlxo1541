@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-07-25",
+  "total_nodes": 1,
+  "nodes": [
+    {
+      "id": "31f6c267-d1c2-40ea-aa3e-e29ab43f5f2a",
+      "title": "강화학습(RL)의 핵심 원리",
+      "category": "Topics",
+      "tags": [
+        "강화학습",
+        "머신러닝",
+        "AI",
+        "개념"
+      ],
+      "confidence": 0.5,
+      "created_at": "2026-07-25T20:53:00.880393"
+    }
+  ],
+  "edges": [],
+  "categories": {
+    "Projects": {
+      "count": 0,
+      "color": "#FF6B6B"
+    },
+    "Topics": {
+      "count": 1,
+      "color": "#4ECDC4"
+    },
+    "Decisions": {
+      "count": 0,
+      "color": "#FFE66D"
+    },
+    "Skills": {
+      "count": 0,
+      "color": "#A8E6CF"
+    }
+  },
+  "metadata": {
+    "description": "P-Reinforce 吏??洹몃옒??- 紐⑤뱺 臾몄꽌 媛꾩쓽 ?곌껐 愿怨꾨? 異붿쟻?⑸땲??",
+    "engine": "P-Reinforce v1.0",
+    "rl_policy_version": "1.0"
+  }
+}

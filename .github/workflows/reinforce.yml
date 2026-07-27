@@ -1,0 +1,50 @@
+name: P-Reinforce Auto Sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '00_Raw/**'
+  schedule:
+    # 매일 자정(KST 09:00 UTC) 자동 스캔
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: '실행 액션 (scan | status)'
+        required: false
+        default: 'scan'
+
+jobs:
+  reinforce:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 체크아웃
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🐍 Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 🔍 Raw 폴더 스캔 및 위키 변환
+        run: |
+          python engine/p_reinforce.py --scan
+        continue-on-error: true
+      
+      - name: 📊 현황 출력
+        run: python engine/p_reinforce.py --status
+      
+      - name: 📤 변경사항 커밋
+        run: |
+          git config user.name "P-Reinforce Agent [bot]"
+          git config user.email "p-reinforce@github-actions.local"
+          git add .
+          git diff --staged --quiet || git commit -m "[P-Reinforce] 🤖 자동 위키 동기화 $(date +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

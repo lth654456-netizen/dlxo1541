@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "last_updated": "2026-07-31",
-  "total_nodes": 18,
+  "total_nodes": 19,
   "nodes": [
     {
       "id": "31f6c267-d1c2-40ea-aa3e-e29ab43f5f2a",
@@ -215,6 +215,19 @@
       ],
       "confidence": 0.5,
       "created_at": "2026-07-31T10:05:20.924510"
+    },
+    {
+      "id": "5ff975a0-7814-41eb-80fe-e74e0b76173b",
+      "title": "강화학습(RL)의 핵심 원리",
+      "category": "Topics",
+      "tags": [
+        "강화학습",
+        "머신러닝",
+        "AI",
+        "개념"
+      ],
+      "confidence": 0.5,
+      "created_at": "2026-07-31T10:05:21.981097"
     }
   ],
   "edges": [],
@@ -224,7 +237,7 @@
       "color": "#FF6B6B"
     },
     "Topics": {
-      "count": 11,
+      "count": 12,
       "color": "#4ECDC4"
     },
     "Decisions": {

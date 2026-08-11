@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "last_updated": "2026-08-11",
-  "total_nodes": 72,
+  "total_nodes": 73,
   "nodes": [
     {
       "id": "31f6c267-d1c2-40ea-aa3e-e29ab43f5f2a",
@@ -854,6 +854,16 @@
       ],
       "confidence": 0.6666666666666666,
       "created_at": "2026-08-11T04:50:46.483144"
+    },
+    {
+      "id": "f0767246-fa7f-42c6-807b-24b6c12226a5",
+      "title": "id: BP-TEST-001",
+      "category": "Topics",
+      "tags": [
+        "따라서"
+      ],
+      "confidence": 0.5,
+      "created_at": "2026-08-11T04:50:47.837248"
     }
   ],
   "edges": [],
@@ -863,7 +873,7 @@
       "color": "#FF6B6B"
     },
     "Topics": {
-      "count": 43,
+      "count": 44,
       "color": "#4ECDC4"
     },
     "Decisions": {

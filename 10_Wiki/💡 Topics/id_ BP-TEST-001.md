@@ -1,10 +1,10 @@
 ---
-id: 5f02bf81-d062-4ec7-96ba-ebf1263c7ec6
+id: 4fcfd976-3dcf-4a23-b7dc-1c18cfe620c5
 category: "[[10_Wiki/💡 Topics]]"
 confidence_score: 0.50
 tags: [따라서]
 last_reinforced: 2026-09-04
-github_commit: "509ecfc"
+github_commit: "pending"
 ---
 
 # [[id: BP-TEST-001]]

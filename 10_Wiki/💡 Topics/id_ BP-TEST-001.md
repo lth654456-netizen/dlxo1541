@@ -1,10 +1,10 @@
 ---
-id: 60ca4868-3a4a-4b34-b8ce-9539dc7e8510
+id: 5115de08-08cb-4664-9ff2-b5a0b772d44b
 category: "[[10_Wiki/💡 Topics]]"
 confidence_score: 0.50
 tags: [따라서]
-last_reinforced: 2026-10-01
-github_commit: "16557e5"
+last_reinforced: 2026-10-02
+github_commit: "pending"
 ---
 
 # [[id: BP-TEST-001]]
@@ -28,4 +28,4 @@ github_commit: "16557e5"
 ## 🔗 지식 연결 (Graph)
 - **Parent:** [[10_Wiki/💡 Topics]]
 - **Related:** [[id: BP-TEST-001]], [[id: BP-TEST-001]]
-- **Raw Source:** [[00_Raw/2026-10-01/테스트_브레인_팩.md]]
+- **Raw Source:** [[00_Raw/2026-10-02/테스트_브레인_팩.md]]

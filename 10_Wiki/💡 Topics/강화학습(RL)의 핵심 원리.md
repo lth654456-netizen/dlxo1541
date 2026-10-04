@@ -4,7 +4,7 @@ category: "[[10_Wiki/💡 Topics]]"
 confidence_score: 0.50
 tags: [강화학습, 머신러닝, AI, 개념]
 last_reinforced: 2026-10-04
-github_commit: "pending"
+github_commit: "f2e63c6"
 ---
 
 # [[강화학습(RL)의 핵심 원리]]

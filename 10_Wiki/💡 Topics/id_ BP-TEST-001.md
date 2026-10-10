@@ -4,7 +4,7 @@ category: "[[10_Wiki/💡 Topics]]"
 confidence_score: 0.50
 tags: [따라서]
 last_reinforced: 2026-10-10
-github_commit: "pending"
+github_commit: "f21cd52"
 ---
 
 # [[id: BP-TEST-001]]

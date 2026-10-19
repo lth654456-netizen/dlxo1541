@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "last_updated": "2026-10-19",
-  "total_nodes": 418,
+  "total_nodes": 419,
   "nodes": [
     {
       "id": "31f6c267-d1c2-40ea-aa3e-e29ab43f5f2a",
@@ -4935,6 +4935,19 @@
       ],
       "confidence": 0.5,
       "created_at": "2026-10-19T03:46:45.078939"
+    },
+    {
+      "id": "3ccbeb24-125c-45b4-9249-ad102bb7f422",
+      "title": "id: BP-2026-7204",
+      "category": "Skills",
+      "tags": [
+        "why",
+        "프롬프트",
+        "자동화",
+        "script"
+      ],
+      "confidence": 0.6666666666666666,
+      "created_at": "2026-10-19T03:46:46.147569"
     }
   ],
   "edges": [],
@@ -4952,7 +4965,7 @@
       "color": "#FFE66D"
     },
     "Skills": {
-      "count": 167,
+      "count": 168,
       "color": "#A8E6CF"
     }
   },

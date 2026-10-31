@@ -1,10 +1,10 @@
 ---
-id: 1bcb738d-04e5-4780-800d-dd152d170c57
+id: 47259c89-ecd2-4afb-a145-5180d4d93b07
 category: "[[10_Wiki/💡 Topics]]"
 confidence_score: 0.50
 tags: [강화학습, 머신러닝, AI, 개념]
-last_reinforced: 2026-10-30
-github_commit: "4d93d26"
+last_reinforced: 2026-10-31
+github_commit: "pending"
 ---
 
 # [[강화학습(RL)의 핵심 원리]]
@@ -28,4 +28,4 @@ github_commit: "4d93d26"
 ## 🔗 지식 연결 (Graph)
 - **Parent:** [[10_Wiki/💡 Topics]]
 - **Related:** [[강화학습(RL)의 핵심 원리]], [[강화학습(RL)의 핵심 원리]]
-- **Raw Source:** [[00_Raw/2026-10-30/강화학습_핵심원리.md]]
+- **Raw Source:** [[00_Raw/2026-10-31/강화학습_핵심원리.md]]
